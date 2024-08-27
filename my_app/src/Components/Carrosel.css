@@ -1,0 +1,61 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 1000;
+  }
+  
+  .carousel-button.prev {
+    left: 10px;
+  }
+  
+  .carousel-button.next {
+    right: 10px;
+  }
+  
+  .carousel-button:hover {
+    background-color: rgba(255, 255, 255);
+  }
+  /* ImageCarousel.css */
+
+.carousel-container {
+    width: 80%; /* Ajuste a largura do carrossel conforme necessário */
+    margin: 0 auto; /* Centraliza o carrossel */
+    overflow: hidden; /* Oculta partes da imagem fora do contêiner */
+  }
+  
+  .carousel-image {
+    width: 100%; /* Ajusta a imagem para ocupar toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 300px; /* Ajuste a altura máxima conforme necessário */
+    object-fit: cover; /* Ajuste o modo de recorte da imagem */
+  }
+  

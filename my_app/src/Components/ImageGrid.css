@@ -1,0 +1,16 @@
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .image-grid img {
+    width: calc(25% - 20px); 
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
